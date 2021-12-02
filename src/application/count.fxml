@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="cpane" layoutX="-19.0" layoutY="-30.0" prefHeight="449.0" prefWidth="446.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.VoteCount">
+   <children>
+     
+            <ListView fx:id="lw" layoutX="123.0" layoutY="112.0" prefHeight="200.0" prefWidth="200.0" />
+            <Button layoutX="340.0" layoutY="199.0" mnemonicParsing="false" onAction="#back" text="Back" />
+       
+   </children>
+</AnchorPane>
